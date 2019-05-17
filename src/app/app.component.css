@@ -3,6 +3,8 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 45em;
+    width: 100%;
+    min-width: 500px;
     /* max-height: 500px; */
 }
 .navbar-nav{
@@ -134,13 +136,21 @@ nav.navbar.navbar-default{
     margin-bottom:10px;
   }
 }
+.content-card{
+  text-align: left;
+  padding:5% 5%;
+}
+.footer-content{
 
-/* footer{
-  padding:5px;
-  text-align:center;
-  background-color:#000000;
-  color:#ffffff;
-} */
+}
+footer{
+    width: 100%;
+    min-width: 500px;
+    background-color: rgba(29, 32, 34, 0.993);
+    padding: 5% 10%;
+    color: white;
+    padding-bottom: 0;
+}
 
 /* footer h5{
   color:inherit;
@@ -152,7 +162,6 @@ div.container.post{
 
 div{
   text-align:center;
-  padding-top:10px;
 }
 
 span.text-uppercase.text-primary{
@@ -162,7 +171,7 @@ span.text-uppercase.text-primary{
 }
 .container-fluid{
     padding: 0 0;
-    min-width: 30em;
+    min-width: 500px;
 }
 .fa-rocker{
     size: 5x;
@@ -170,24 +179,28 @@ span.text-uppercase.text-primary{
 .row{
     margin: 0;
 }
-/* .col, .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8, .col-9,.col-10, .col-11, .col-12{
+.col, .col-1, .col-2, .col-3, .col-md-4,.col-5, .col-6, .col-7, .col-8, .col-9,.col-10, .col-11, .col-12{
     padding: 0 0;
-} */
+}
+.img{
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .content{
+    height:50% ;
     max-height: 30em;
     position: relative;
 }
 hr{ margin: 0 0;
-    border-top: 1px solid rgba(77, 70, 70,.5);}
+    border-top: 1px solid rgba(77, 70, 70,.7);}
 .banner{
     padding:  0 8em;
     background-color: aqua;
     padding-bottom: 2.5em;
 }
-.footer{
-    background-color: rgba(12, 12, 12, 0.993);
-    padding: 10% 10%;
-    color: white;
+.bg-content{
+  background-color: rgb(12, 209, 209)
 }
 .box-border-outter{
     display: flex;
@@ -223,4 +236,9 @@ hr{ margin: 0 0;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: rgba(150, 134, 224,.5);
+}
+.btn-demo{
+  padding: 0.3em 2em;
+  border-radius: 7px;
+  background-color: rgb(19, 196, 219)
 }

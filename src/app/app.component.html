@@ -6,7 +6,7 @@
               <i class="fas fa-rocket"></i>
               <span class="text-title">iGoDoc</span>
             </a>
-            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">aaaaa
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -17,10 +17,16 @@
             <ul class="nav navbar-nav navbar-right">
               <li class="active" role="presentation"><i class="far fa-user-circle"></i></li>
               <li role="presentation">
-                <select class="label-2 selectpicker " data-width="fit">
-                  <option data-content='English'><span class="flag-icon flag-icon-us"></span> English</option>
-                  <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                </select>
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
               </li>
               <li role="presentation"></li>
             </ul>
@@ -36,11 +42,11 @@
   </header>
   <hr>
   <!-- post container -->
-<div class="container-fluid post">
+<div class="container-fluid post" style=" background-color: rgb(244, 247, 250)">
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <div><span class="font-weight-bold" style="font-family: Oswald, sans-serif; font-size: 3em">iGoDoc la solution complète pour votre agenda en ligne</span></div>
+                    <div><span class="font-weight-bold" style="font-family: Oswald, sans-serif; font-size: 3em;">iGoDoc la solution complète pour votre agenda en ligne</span></div>
                     <div class="d-flex justify-content-center row mx-auto">
                         <div class="box-border-outter">
                           <div class="box-border-inner">
@@ -96,25 +102,24 @@
   </div> -->
     <!-- Banner Container-->
 
-<div class="container-fluid post banner">
-    <div class="row">
-        <div class="col-md-7 col-md-offset-0 post-body">
-            <img src="../assets/Images/ordi_tous_Shutterstock_detour.jpg" class="img-fluid" alt="Responsive image">
-            <figure></figure>
+    <div class="container-fluid post banner">
+        <div class="row">
+            <div class="col-md-7 col-md-offset-0 post-body">
+                <img src="../assets/Images/ordi_tous_Shutterstock_detour.jpg" class="img-fluid" alt="Responsive image">
+                <figure></figure>
+                </div>
+            <div class="col-md-5 post-title">
+              <!-- <h1>Photography in New York</h1>
+              <p class="author"><strong>John Steward</strong> <span class="text-muted">October 6th 2015 </span></p> -->
+              <p class="font-weight-bold" style="font-family: Oswald, sans-serif; font-size: 4em"> Inscrivez-vousdès maintenant</p>
+              <button type="button" class="btn btn-info px-5"><strong>Inscription</strong></button>
+              <div class="text-left mr-1">
+                  <p><i class="fas fa-check" style="color:rgb(0, 183, 255);font-size: 4em"></i><span><strong style="font-size: 2em">Référencementweb</strong></span></p>
+                  <p><i class="fas fa-check" style="color:rgb(0, 183, 255);font-size: 4em"></i><span><strong style="font-size: 2em">Gaindetemps</strong></span></p>
+              </div>
             </div>
-        <div class="col-md-5 post-title">
-          <!-- <h1>Photography in New York</h1>
-          <p class="author"><strong>John Steward</strong> <span class="text-muted">October 6th 2015 </span></p> -->
-          <p class="font-weight-bold" style="font-family: Oswald, sans-serif; font-size: 4em"> Inscrivez-vousdès maintenant</p>
-          <button type="button" class="btn btn-info px-5"><strong>Inscription</strong></button>
-          <div class="text-left mr-1">
-              <p><i class="fas fa-check" style="color:rgb(0, 183, 255);font-size: 4em"></i><span><strong style="font-size: 2em">Référencementweb</strong></span></p>
-              <p><i class="fas fa-check" style="color:rgb(0, 183, 255);font-size: 4em"></i><span><strong style="font-size: 2em">Gaindetemps</strong></span></p>
-          </div>
         </div>
     </div>
-</div>
-<hr>
 <!-- <div class="container-fluid post">
     <div class="row">
       <img src="../assets/Images/ordi_tous_Shutterstock_detour.jpg" class="img-fluid" alt="Responsive image">
@@ -190,89 +195,115 @@
 </div> -->
   <!-- Content Container-->
 <div class="container-fluid post">
-      <div class="row bg-info">
-          <img class="col-5 d-block h-100" height="auto" src="../assets/Images/shutterstock_766847608.jpg" alt="Responsive image">
-          <div class="col-md-7"><span>Hãy khám phá iGoDoc làm thế nào để đơn giản hóa hoạt động y tế của bạn </span></div>
+      <div class="row bg-content">
+          <!-- <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div> -->
+          <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div>
+          <div class="col-md-8 content-card">
+            <span><h1><strong>Gagnez du temps etréduisez les rendez-vous manqué</strong></h1></span><br>
+            <span><h4>
+            En choisissant de travailler avec laprise de rendez-vous enligne,vous diminuez massivement tous les téléphones.<br>
+            Votre assistante peut ainsi dégager du temps pour les autre stâches du cabinet.<br>
+            Le patient à la possibilité de choisir la plage de rendez-vous qui lui convient le mieux.</h4></span>
+            <br><br>
+            <button class="btn btn-demo" type="button"><p style="font-size: 20px;margin-bottom: 0">Démonstration</p></button>
+          </div>
       </div> 
+      <hr>
       <div class="row bg-light">
-          <div class="col-md-7"><span>Hãy khám phá iGoDoc làm thế nào để đơn giản hóa hoạt động y tế của bạn </span></div>
-          <img class="col-5 d-block h-100" height="auto" src="../assets/Images/shutterstock_766847608.jpg" alt="Responsive image">
+          <div class="col-md-8 content-card">
+            <span><h1><strong>Les patients choisissent le mode de rappel par SMS oue-mail</strong></h1></span><br>
+            <span><h4>Pour éviter au maximum les rendez-vous manqué, c’est au patient dechoisir le mode de notification souhaité, soit
+              pare-mail ou par SMS. Les envois se font de manière automatique, vous n’avez donc plus besoin de vous en soucier.</h4></span><br>
+              <br><a href="#"><button class="btn btn-demo" type="button"><p style="font-size: 20px;margin-bottom: 0">Démonstration</p></button></a></div>
+          <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div>
       </div>
 </div>
 <hr>
-  <div class=" content row bg-info">
-      <img class="col-4 d-block h-100" height="auto" src="../assets/Images/shutterstock_766847608.jpg" alt="Responsive image">
-      <div class="col-8">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-  </div>
+<div class="container-fluid post">
+  <div class="row bg-content">
+      <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div>
+      <div class="col-md-8 content-card"><span><h1><strong>Une équipe Suisse avec plus de 10 ans d’expérience dans l’informatique médicale</strong></h1></span><br>
+        <span><h4>Nous sommes une équipe regroupant des ingénieurs et actifs depuis 10 ans dans ledomaine de l’informatique médicale en Suisse. Nous connaissons les besoins spécifiques des professionnels de santé. Pour
+            répondre aux attentes de nos clients pour la Suisse Romandeet la Suisse Alémanique, nous avons deux
+            succursales, le siège de lasociété à Lausanne et une succursale à Berne pour le marché Suisse
+            Allemand. En utilisant notre service, vous choisissez la proximité et l’expérience.</h4>
+          </span>
+          <br><a href="#"><button class="btn btn-demo" type="button"><p style="font-size: 20px;margin-bottom: 0">Démonstration</p></button></a></div>
+  </div> 
   <hr>
-  <div class="content row bg-light">
-      <div class="col-8">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <img class="col-4 d-block h-100"  src="../assets/Images/shutterstock_766847608.jpg" alt="Card image cap">
+  <div class="row bg-light">
+      <div class="col-md-8 content-card">
+        <span><h1><strong>Support à votre disposition par téléphone et e-mail</strong></h1></span><br>
+        <span><h4>Pour vous accompagner lors de laconfiguration du module ou pour les questions d’utilisation, nos techniciens se font un plaisir de répondre à toute vos questions durant les jours ouvrables entre 8h et 12h ou
+            entre 14h et 17h. Vous pouvez nous joindre simplement par téléphone ou par e-mail.</h4></span>
+          <br><a href="#"><button class="btn btn-demo" type="button"><p style="font-size: 20px;margin-bottom: 0">Démonstration</p></button></a></div>
+      <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div>
   </div>
+</div>
+<hr>
+<div class="container-fluid post">
+  <div class="row bg-content">
+      <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div>
+      <div class="col-md-8 content-card">
+          <span><h1><strong>iGoDoc est synchronisé automatiquement avec votre dossier patient informatisé</strong></h1></span><br>
+          <span><h4>Toutes les données de votre agenda en ligne sont synchronisées automatiquement avec votre dossier patient informatisé. Les patients y sont directement sélectionnés et vous pouvez choisir sur votre DPI les
+          plages permettant aux patients de réserver enligne.<br>
+          <strong>DPI actuellement compatible: Handy Patients Enterprise</strong><br>
+          Dans le cas-ou vous utilisez actuellement un autre logiciel, n’hésitez pas ànous contacter également.
+          Un développement est également possible.</h4>
+          </span>
+          <br><a href="#"><button class="btn btn-demo" type="button"><p style="font-size: 20px;margin-bottom: 0">Démonstration</p></button></a></div>
+  </div> 
   <hr>
-  <div class="content row bg-info">
-      <img class="col-4 d-block h-100" src="../assets/Images/shutterstock_766847608.jpg" alt="Card image cap">
-      <div class="col-8">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
+  <div class="row bg-light">
+      <div class="col-md-8 content-card"><span><h1>
+        <strong>Choisissez d’intéger l’agenda en ligne sur votre site web
+          personnel ou utiliser notre plateforme</strong></h1></span>
+        <span><h4>Notre agenda en ligne peut s’intégrer facilement sur votre site web personnel ou vous pouvez choisir d’utiliser notre
+            plate for medédiée via le site internet de iGoDoc.<br>
+            Dans tous les cas, vous ferez partie de la recherche centralisée et vous augmenterai votre référencement sur internet.</h4></span>
+            <br><a href="#"><button class="btn btn-demo" type="button"><p style="font-size: 20px;margin-bottom: 0">Démonstration</p></button></a></div>
+      <div class="col-md-4 img" style="background-image: url('/assets/Images/shutterstock_766847608.jpg')"><figure></figure></div>
   </div>
-  <hr>
-  <div class="content row bg-light">
-      
-      <div class="col-8">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <img class="col-4 d-block h-100" src="../assets/Images/shutterstock_766847608.jpg" alt="Card image cap">
-  </div>
-  <hr>
-  <div class="content row bg-info">
-      <img class="col-4 d-block h-100" src="../assets/Images/shutterstock_766847608.jpg" alt="Card image cap">
-      <div class="col-8">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-  </div>
-  <hr>
-  <div class="content row bg-light">
-      
-      <div class="col-8">
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <img class="col-4 d-block h-100" src="../assets/Images/shutterstock_766847608.jpg" alt="Card image cap">
-  </div>
-  <hr>
+</div>
+<hr>
+<div class="container-fluid">
   <a class="scroll-to-top rounded" href="#page-top">
-      <i class="fas fa-angle-up">Haut de la page</i>
-    </a>
+    <div style="background-color:aqua;color:white;"><i class="fas fa-angle-up"></i></div>
+      <span>Haut de la page</span>
+    </a></div>
+  
   <!-- Footer Container-->
-  <div class="footer row">
-      <div class="col-sm">
-        <p>CONTACT</p>
-        iGoDoc
-        ChemindeMornex3
-        1003Lausanne
-        0213120029
-        info@igodoc.ch
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
+          <p><strong> CONTACT</strong></p>
+          <p style="color: aqua">iGoDoc<br>
+          ChemindeMornex3<br>
+          1003Lausanne<br>
+          0213120029<br>
+          info@igodoc.ch<br></p>
+        </div>
+        <div class="col-sm">
+          <p><Strong>PATIENT</Strong></p>
+          <p style="color: aqua">Prendreunrendez-vous<br>
+          Rechercherunpraticien<br>
+          Questionsfréquentes<br>
+          Seconnecter<br></p>
+          
+        </div>
+        <div class="col-sm">
+          <p><strong>PROFESSIONNEL</strong></p>
+          <p style="color:aqua">Seconnecter<br>
+          S’inscrire<br>
+          Démonstration<br>
+          Plusd’informations<br>
+          Teamviewer<br></p>
+        </div>
       </div>
-      <div class="col-sm">
-        <p>PATIENT</p>
-        Prendreunrendez-vous
-        Rechercherunpraticien
-        Questionsfréquentes
-        Seconnecter
+      <div style="margin-top:10px">
+          <span>Copyright : Handylife2018</span>
       </div>
-      <div class="col-sm">
-        <p>PROFESSIONNEL</p>
-        Seconnecter
-        S’inscrire
-        Démonstration
-        Plusd’informations
-        Teamviewer
-      </div>
-    </div>
-    <div>
-        <label>Copyright : Handylife2018</label>
-    </div>
+  </div>
+</footer>
