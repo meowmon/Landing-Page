@@ -2,3 +2,6 @@
 app-root{
     background-color: black; 
 }
+body{
+    min-width: 500px;
+}

@@ -67,6 +67,9 @@ nav.navbar.navbar-default{
     display:none;
   }
 }
+col-md-4{
+  min-height: 500px
+}
 
 .navbar-brand .glyphicon{
   display:inline-block;
@@ -114,6 +117,14 @@ nav.navbar.navbar-default{
 .post-title .author{
   text-transform:uppercase;
 }
+@media (max-width:767px){
+  div.post-body{
+    width: 100%;
+  }
+  div.img-fluid{
+    width: 450px;
+  }
+}
 
 .post-body figure{
   margin-bottom:10px;
@@ -157,7 +168,6 @@ footer{
 } */
 
 div.container.post{
-    display: block;
 }
 
 div{
@@ -186,6 +196,7 @@ span.text-uppercase.text-primary{
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 300px
 }
 .content{
     height:50% ;
@@ -222,11 +233,26 @@ hr{ margin: 0 0;
     border-radius: 5px;
     background-color: white;
 }
+@media (max-width: 767px){
+  div.text-banner{
+    padding-left:5vw;
+  }
+}
+@media (max-width: 767px){
+  div.content-card{
+    height: fit-content;
+  }
+}
 .wrapper{
     padding: 30px;
     width: 45%;
     max-height: 40em;
     position: relative;
+}
+@media ( max-width:900px){
+  div.wrapper{
+    width: 100%;
+  }
 }
 .carousel-control-next-icon{
     background-image: url("../assets/Images/next.png")
